@@ -1,0 +1,83 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+main {
+  display: flex;
+  background-color: hsl(233, 47%, 7%);
+  justify-content: center;
+}
+.background {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 327px;
+  height: 750px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 8px;
+  margin: 10px;
+}
+.text {
+  width: 264px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 28px;
+  line-height: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 280px;
+}
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+h1 + p {
+  font-size: 15px;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: center;
+  margin-bottom: 40px;
+}
+h2 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+h2 + p {
+  font-family: "Inter", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.img,
+img {
+  position: absolute;
+  width: 327px;
+  height: 240px;
+  border-radius: 8px 8px 0 0;
+}
+.violet {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(278, 100%, 31%);
+  opacity: 0.5;
+}
+footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  font-size: 10px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
